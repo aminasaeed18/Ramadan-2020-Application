@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramazan2020">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconramazan"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconramazan"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Alarm"></activity>
+        <activity android:name=".PlayDua" />
+        <activity android:name=".RamadanPdf" />
+        <activity android:name=".DetailedDua" />
+        <activity android:name=".DuaRecycle" />
+        <activity android:name=".Dua" />
+        <activity android:name=".Recycleritem" />
+        <activity android:name=".Dev_info" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

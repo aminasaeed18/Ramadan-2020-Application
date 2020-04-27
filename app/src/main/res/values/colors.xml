@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorrPrimary">#27AE60</color>
+    <color name="colorrPrimaryDark">#1A934D</color>
+    <color name="colorPrimary">#085A37</color>
+    <color name="colorPrimaryDark">#024126</color>
+    <color name="colorAccent">#810C0C</color>
+    <color name="teal_separator">#4DB6B6B6</color>
+
+</resources>
